@@ -341,5 +341,5 @@ if __name__ == "__main__":
     plot_beta_sweep()
 
     # use the Bell state density matrix already defined in your __main__
-    plot_polarizer_error(state_or_rho=rho_phi_plus, max_error_deg=21.0, step_deg=0.1, n_samples=2000, seed=111)
+    plot_polarizer_error(state_or_rho=rho_phi_plus, max_error_deg=21.0, step_deg=0.1, n_samples=1000, seed=111)
 
